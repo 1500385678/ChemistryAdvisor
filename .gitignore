@@ -1,5 +1,9 @@
 .DS_Store
-*.log
+# 修正:*.log 会误匹配 .Log/ 目录下的巡检报告(如 .Log/巡检-化学-YYYYMMDD.md)
+# 改用 logs/*.log 仅匹配小写 logs/ 目录下的日志文件
+logs/*.log
 node_modules/
 .venv/
 __pycache__/
+# 反规则:明确保留 .Log/ 巡检目录(虽然目录名首字母大写,git 默认大小写敏感,但加反规则更稳)
+!/.Log/
