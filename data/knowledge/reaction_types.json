@@ -1,0 +1,282 @@
+[
+  {
+    "type_id": "synthesis",
+    "name_zh": "合成反应",
+    "name_en": "Synthesis (Combination)",
+    "category": "inorganic",
+    "category_zh": "无机反应",
+    "general_form": "A + B → AB",
+    "description": "两种或两种以上单质/化合物生成一种新化合物的反应",
+    "conditions": ["常温或加热", "部分需催化剂", "部分需高压/光照"],
+    "examples": [
+      {
+        "equation": "2H₂ + O₂ → 2H₂O",
+        "note": "氢气燃烧,点燃即剧烈反应"
+      },
+      {
+        "equation": "N₂ + 3H₂ ⇌ 2NH₃",
+        "note": "哈伯法合成氨,需高温高压 + 铁催化剂"
+      },
+      {
+        "equation": "CaO + H₂O → Ca(OH)₂",
+        "note": "生石灰消化,放热"
+      }
+    ],
+    "key_signs": ["多变一", "生成新物质", "常伴随放热"],
+    "related_categories": ["element", "oxide", "salt"],
+    "difficulty": 1,
+    "tags": ["基础", "无机", "四基本反应类型"]
+  },
+  {
+    "type_id": "decomposition",
+    "name_zh": "分解反应",
+    "name_en": "Decomposition",
+    "category": "inorganic",
+    "category_zh": "无机反应",
+    "general_form": "AB → A + B",
+    "description": "一种化合物分解为两种或两种以上单质/化合物的反应",
+    "conditions": ["常需加热", "部分需催化剂/电解", "部分需光照"],
+    "examples": [
+      {
+        "equation": "2H₂O → 2H₂ + O₂",
+        "note": "电解水,工业制氢主路径之一"
+      },
+      {
+        "equation": "CaCO₃ → CaO + CO₂↑",
+        "note": "高温煅烧石灰石,工业制 CO₂ 和生石灰"
+      },
+      {
+        "equation": "2KClO₃ → 2KCl + 3O₂↑",
+        "note": "实验室制氧气,二氧化锰催化"
+      }
+    ],
+    "key_signs": ["一变多", "常需持续供能", "气体/沉淀生成"],
+    "related_categories": ["oxide", "salt", "hydroxide"],
+    "difficulty": 1,
+    "tags": ["基础", "无机", "四基本反应类型"]
+  },
+  {
+    "type_id": "single_replacement",
+    "name_zh": "置换反应",
+    "name_en": "Single Replacement",
+    "category": "inorganic",
+    "category_zh": "无机反应",
+    "general_form": "A + BC → AC + B",
+    "description": "一种单质与一种化合物反应,生成新单质和新化合物",
+    "conditions": ["依据金属活动性顺序表", "依据非金属活动性顺序"],
+    "examples": [
+      {
+        "equation": "Fe + CuSO₄ → FeSO₄ + Cu",
+        "note": "湿法炼铜原理,Fe 比 Cu 活泼"
+      },
+      {
+        "equation": "Zn + 2HCl → ZnCl₂ + H₂↑",
+        "note": "实验室制氢气经典反应"
+      },
+      {
+        "equation": "Cl₂ + 2NaBr → 2NaCl + Br₂",
+        "note": "卤素置换,Cl 比 Br 活泼"
+      }
+    ],
+    "key_signs": ["单质+化合物→新单质+新化合物", "受活动性顺序约束", "常为氧化还原"],
+    "related_categories": ["metal", "halogen", "acid", "salt"],
+    "difficulty": 2,
+    "tags": ["基础", "无机", "四基本反应类型", "氧化还原"]
+  },
+  {
+    "type_id": "double_replacement",
+    "name_zh": "复分解反应",
+    "name_en": "Double Replacement (Metathesis)",
+    "category": "inorganic",
+    "category_zh": "无机反应",
+    "general_form": "AB + CD → AD + CB",
+    "description": "两种化合物互相交换成分,生成两种新化合物",
+    "conditions": ["生成沉淀/气体/水/弱电解质之一才可发生", "反应物均可溶(酸碱中和除外)"],
+    "examples": [
+      {
+        "equation": "NaCl + AgNO₃ → AgCl↓ + NaNO₃",
+        "note": "生成白色沉淀 AgCl,Cl⁻ 检验反应"
+      },
+      {
+        "equation": "Na₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂↑",
+        "note": "生成气体 CO₂,实验室制 CO₂"
+      },
+      {
+        "equation": "NaOH + HCl → NaCl + H₂O",
+        "note": "中和反应也是复分解特例"
+      }
+    ],
+    "key_signs": ["两化合物互换", "需满足沉淀/气体/水驱动条件", "元素化合价不变"],
+    "related_categories": ["salt", "acid", "base", "oxide"],
+    "difficulty": 2,
+    "tags": ["基础", "无机", "四基本反应类型"]
+  },
+  {
+    "type_id": "combustion",
+    "name_zh": "燃烧反应",
+    "name_en": "Combustion",
+    "category": "inorganic",
+    "category_zh": "无机反应",
+    "general_form": "可燃物 + O₂ → 氧化物 (+ 能量)",
+    "description": "可燃物与氧气发生的剧烈氧化还原反应,放热发光",
+    "conditions": ["温度达到着火点", "与氧气充分接触", "可燃物为还原剂"],
+    "examples": [
+      {
+        "equation": "CH₄ + 2O₂ → CO₂ + 2H₂O",
+        "note": "甲烷完全燃烧,天然气主要反应"
+      },
+      {
+        "equation": "2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O",
+        "note": "乙烷完全燃烧,蓝色火焰"
+      },
+      {
+        "equation": "4Fe + 3O₂ → 2Fe₂O₃",
+        "note": "铁丝在氧气中燃烧,火星四射"
+      }
+    ],
+    "key_signs": ["放热发光", "氧气参与", "常需点燃/着火点"],
+    "related_categories": ["hydrocarbon", "fuel", "metal"],
+    "difficulty": 1,
+    "tags": ["基础", "无机", "氧化还原", "能源化学"]
+  },
+  {
+    "type_id": "redox",
+    "name_zh": "氧化还原反应",
+    "name_en": "Redox (Oxidation-Reduction)",
+    "category": "inorganic",
+    "category_zh": "无机反应",
+    "general_form": "氧化剂 + 还原剂 → 还原产物 + 氧化产物",
+    "description": "有电子转移(化合价变化)的反应,氧化与还原同时发生",
+    "conditions": ["存在化合价变化", "常见氧化剂:O₂/HNO₃/KMnO₄/Cl₂", "常见还原剂:H₂/C/CO/活泼金属"],
+    "examples": [
+      {
+        "equation": "Cu + 2AgNO₃ → Cu(NO₃)₂ + 2Ag",
+        "note": "Cu 失电子被氧化,Ag⁺ 得电子被还原"
+      },
+      {
+        "equation": "2KMnO₄ + 16HCl → 2KCl + 2MnCl₂ + 5Cl₂↑ + 8H₂O",
+        "note": "高锰酸钾氧化盐酸制氯气"
+      },
+      {
+        "equation": "Fe₂O₃ + 3CO → 2Fe + 3CO₂",
+        "note": "工业炼铁,CO 还原 Fe₂O₃"
+      }
+    ],
+    "key_signs": ["化合价变化", "电子转移", "氧化剂得电子/还原剂失电子"],
+    "related_categories": ["metal", "oxidant", "reductant"],
+    "difficulty": 3,
+    "tags": ["核心", "无机", "电化学基础", "工业核心"]
+  },
+  {
+    "type_id": "neutralization",
+    "name_zh": "中和反应",
+    "name_en": "Neutralization",
+    "category": "inorganic",
+    "category_zh": "无机反应",
+    "general_form": "酸 + 碱 → 盐 + 水",
+    "description": "酸中的 H⁺ 与碱中的 OH⁻ 结合生成水的反应,放热",
+    "conditions": ["酸与碱在水溶液中进行", "强酸强碱完全中和生成强酸强碱盐"],
+    "examples": [
+      {
+        "equation": "HCl + NaOH → NaCl + H₂O",
+        "note": "盐酸与烧碱中和,生成强酸强碱盐(中性)"
+      },
+      {
+        "equation": "H₂SO₄ + 2KOH → K₂SO₄ + 2H₂O",
+        "note": "硫酸与氢氧化钾中和,生成正盐"
+      },
+      {
+        "equation": "H₂SO₄ + Ba(OH)₂ → BaSO₄↓ + 2H₂O",
+        "note": "硫酸与氢氧化钡,生成沉淀 + 水,双驱动"
+      }
+    ],
+    "key_signs": ["H⁺ + OH⁻ → H₂O", "放热", "生成盐和水"],
+    "related_categories": ["acid", "base", "salt"],
+    "difficulty": 1,
+    "tags": ["基础", "无机", "复分解特例", "pH"]
+  },
+  {
+    "type_id": "precipitation",
+    "name_zh": "沉淀反应",
+    "name_en": "Precipitation",
+    "category": "inorganic",
+    "category_zh": "无机反应",
+    "general_form": "可溶盐 A + 可溶盐 B → 沉淀 + 新盐",
+    "description": "溶液中离子结合生成难溶电解质(沉淀)的反应",
+    "conditions": ["生成物 Ksp 极小(难溶)", "离子浓度足够", "符合复分解驱动条件"],
+    "examples": [
+      {
+        "equation": "BaCl₂ + Na₂SO₄ → BaSO₄↓ + 2NaCl",
+        "note": "白色 BaSO₄ 沉淀,SO₄²⁻ 检验反应"
+      },
+      {
+        "equation": "CuSO₄ + 2NaOH → Cu(OH)₂↓ + Na₂SO₄",
+        "note": "蓝色 Cu(OH)₂ 絮状沉淀"
+      },
+      {
+        "equation": "AgNO₃ + KCl → AgCl↓ + KNO₃",
+        "note": "白色 AgCl 沉淀,Cl⁻ 检验反应"
+      }
+    ],
+    "key_signs": ["生成难溶物 ↓", "离子反应", "定性分析常用"],
+    "related_categories": ["salt", "hydroxide"],
+    "difficulty": 2,
+    "tags": ["基础", "无机", "复分解特例", "分析化学"]
+  },
+  {
+    "type_id": "esterification",
+    "name_zh": "酯化反应",
+    "name_en": "Esterification (Fischer)",
+    "category": "organic",
+    "category_zh": "有机反应",
+    "general_form": "羧酸 + 醇 → 酯 + 水",
+    "description": "羧酸与醇在酸催化下脱水生成酯,典型可逆反应",
+    "conditions": ["浓硫酸催化", "加热(Δ)", "可逆反应,通常脱水使平衡右移"],
+    "examples": [
+      {
+        "equation": "CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O",
+        "note": "乙酸与乙醇生成乙酸乙酯,水果香味"
+      },
+      {
+        "equation": "CH₃COOH + CH₃OH ⇌ CH₃COOCH₃ + H₂O",
+        "note": "乙酸甲酯,工业溶剂"
+      },
+      {
+        "equation": "C₆H₁₂O₆(葡萄糖)→ 复杂酯化(油脂)",
+        "note": "高级脂肪酸甘油酯,天然油脂来源"
+      }
+    ],
+    "key_signs": ["酸 + 醇 → 酯 + 水", "浓 H₂SO₄ 催化", "可逆"],
+    "related_categories": ["carboxylic_acid", "alcohol", "ester"],
+    "difficulty": 3,
+    "tags": ["核心", "有机", "可逆反应", "官能团"]
+  },
+  {
+    "type_id": "addition",
+    "name_zh": "加成反应",
+    "name_en": "Addition",
+    "category": "organic",
+    "category_zh": "有机反应",
+    "general_form": "不饱和键 + 试剂 → 饱和产物",
+    "description": "不饱和键(C=C / C≡C / C=O)打开,两端各连接新原子/基团",
+    "conditions": ["催化剂常见:N/Pd/Ni/H⁺", "加 H₂/X₂/HX/H₂O", "光照/加热可选"],
+    "examples": [
+      {
+        "equation": "CH₂=CH₂ + Br₂ → CH₂Br-CH₂Br",
+        "note": "乙烯使溴水褪色,双键加成"
+      },
+      {
+        "equation": "CH₂=CH₂ + H₂O → CH₃CH₂OH",
+        "note": "乙烯水化制乙醇,工业主路径"
+      },
+      {
+        "equation": "CH≡CH + HCl → CH₂=CHCl",
+        "note": "乙炔加 HCl 制氯乙烯,进而聚合成 PVC"
+      }
+    ],
+    "key_signs": ["不饱和度降低", "无小分子生成", "试剂加到双键/三键两端"],
+    "related_categories": ["alkene", "alkyne", "aromatic"],
+    "difficulty": 3,
+    "tags": ["核心", "有机", "不饱和烃", "聚合前体"]
+  }
+]
