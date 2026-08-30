@@ -278,5 +278,173 @@
     "related_categories": ["alkene", "alkyne", "aromatic"],
     "difficulty": 3,
     "tags": ["核心", "有机", "不饱和烃", "聚合前体"]
+  },
+  {
+    "type_id": "substitution",
+    "name_zh": "取代反应",
+    "name_en": "Substitution",
+    "category": "organic",
+    "category_zh": "有机反应",
+    "general_form": "A-B + C-D → A-D + C-B",
+    "description": "有机分子中某一原子/基团被另一原子/基团替换的反应",
+    "conditions": ["光照/加热/催化剂常见", "亲核/亲电/自由基三种机理", "烷烃卤代/苯环硝化/酯水解均属此类"],
+    "examples": [
+      {
+        "equation": "CH₄ + Cl₂ → CH₃Cl + HCl(光照)",
+        "note": "甲烷氯化制氯甲烷,自由基机理"
+      },
+      {
+        "equation": "C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O(浓 H₂SO₄ 催化)",
+        "note": "苯硝化制硝基苯,亲电取代"
+      },
+      {
+        "equation": "CH₃Cl + NaOH → CH₃OH + NaCl(水/醇溶液)",
+        "note": "卤代烃水解,亲核取代 SN"
+      }
+    ],
+    "key_signs": ["有进有出", "不饱和度不变", "常生成小分子 HX/H₂O"],
+    "related_categories": ["alkane", "aromatic", "halide", "alcohol"],
+    "difficulty": 3,
+    "tags": ["核心", "有机", "机理基础", "亲核/亲电"]
+  },
+  {
+    "type_id": "elimination",
+    "name_zh": "消除反应",
+    "name_en": "Elimination",
+    "category": "organic",
+    "category_zh": "有机反应",
+    "general_form": "饱和有机物 → 不饱和有机物 + 小分子(HX/H₂O)",
+    "description": "从一个有机分子脱去小分子(HX/H₂O),生成不饱和键(C=C/C≡C)",
+    "conditions": ["NaOH/醇溶液 或 浓 H₂SO₄ 催化", "加热", "β-消除为主(E1/E2 机理)"],
+    "examples": [
+      {
+        "equation": "CH₃CH₂Br + NaOH(醇)→ CH₂=CH₂↑ + NaBr + H₂O",
+        "note": "卤代烃消去制乙烯,β-H 消除"
+      },
+      {
+        "equation": "CH₃CH₂OH →(浓 H₂SO₄, 170°C)CH₂=CH₂↑ + H₂O",
+        "note": "乙醇分子内脱水制乙烯"
+      },
+      {
+        "equation": "CH₃CH₂OH + CH₃CH₂OH →(浓 H₂SO₄, 140°C)CH₃CH₂OCH₂CH₃ + H₂O",
+        "note": "乙醇分子间脱水生成乙醚,与消去竞争"
+      }
+    ],
+    "key_signs": ["小分子脱去", "不饱和度升高", "需 β-H"],
+    "related_categories": ["alkyl_halide", "alcohol", "alkene"],
+    "difficulty": 3,
+    "tags": ["核心", "有机", "与取代竞争", "烯烃制备"]
+  },
+  {
+    "type_id": "polymerization",
+    "name_zh": "聚合反应",
+    "name_en": "Polymerization",
+    "category": "organic",
+    "category_zh": "有机反应",
+    "general_form": "n·单体 → 高聚物(链节重复 n 次)",
+    "description": "单体小分子通过加成/缩合/开环等机理形成高分子聚合物的反应",
+    "conditions": ["引发剂/催化剂/光/热", "加聚(无小分子)/缩聚(脱 H₂O/HCl)", "控制温度与压力"],
+    "examples": [
+      {
+        "equation": "n CH₂=CH₂ →(催化剂)−[CH₂−CH₂]ₙ−",
+        "note": "乙烯加聚制聚乙烯 PE,最常见塑料"
+      },
+      {
+        "equation": "n CH₂=CHCl →(催化剂)−[CH₂−CHCl]ₙ−",
+        "note": "氯乙烯加聚制聚氯乙烯 PVC"
+      },
+      {
+        "equation": "n H₂N−(CH₂)₆−NH₂ + n HOOC−(CH₂)₄−COOH → 尼龙-66 + 2n H₂O",
+        "note": "己二胺与己二酸缩聚制尼龙-66"
+      }
+    ],
+    "key_signs": ["小分子聚成大分子", "分子量数千至百万", "加聚无小分子/缩聚有小分子"],
+    "related_categories": ["alkene", "amide", "polymer", "monomer"],
+    "difficulty": 4,
+    "tags": ["核心", "有机", "高分子", "材料化学"]
+  },
+  {
+    "type_id": "electrolysis",
+    "name_zh": "电解反应",
+    "name_en": "Electrolysis",
+    "category": "inorganic",
+    "category_zh": "无机反应",
+    "general_form": "化合物 →(通电)单质/新化合物(阴/阳极分别反应)",
+    "description": "电流通过电解质溶液或熔融态化合物,驱动非自发的氧化还原反应",
+    "conditions": ["外加电源", "电解质溶液或熔融态", "阴阳极分别发生还原/氧化"],
+    "examples": [
+      {
+        "equation": "2H₂O →(通电)2H₂↑ + O₂↑",
+        "note": "电解水,工业制氢重要路径"
+      },
+      {
+        "equation": "2NaCl + 2H₂O →(通电)2NaOH + H₂↑ + Cl₂↑",
+        "note": "氯碱工业电解食盐水,制烧碱/氢气/氯气"
+      },
+      {
+        "equation": "2Al₂O₃ →(熔融,通电)4Al + 3O₂↑",
+        "note": "电解熔融氧化铝制金属铝,冰晶石助熔"
+      }
+    ],
+    "key_signs": ["外加电源", "强制氧化还原", "阴阳极产物不同"],
+    "related_categories": ["electrolyte", "metal", "gas", "industrial"],
+    "difficulty": 4,
+    "tags": ["核心", "无机", "电化学", "工业核心"]
+  },
+  {
+    "type_id": "catalysis",
+    "name_zh": "催化反应",
+    "name_en": "Catalysis",
+    "category": "general",
+    "category_zh": "通用机理",
+    "general_form": "反应物 →(催化剂)产物(催化剂不消耗)",
+    "description": "催化剂通过降低活化能改变反应速率,自身在反应前后质量和化学性质不变",
+    "conditions": ["催化剂选择性高", "不进入产物结构", "均相/多相/生物酶三大类"],
+    "examples": [
+      {
+        "equation": "2H₂O₂ →(MnO₂)2H₂O + O₂↑",
+        "note": "二氧化锰催化过氧化氢分解,经典演示"
+      },
+      {
+        "equation": "N₂ + 3H₂ ⇌(Fe 催化剂, 高温高压)2NH₃",
+        "note": "哈伯法合成氨,铁催化剂是工业核心"
+      },
+      {
+        "equation": "C₆H₁₂O₆ →(酶)酒精 + CO₂",
+        "note": "葡萄糖酶催化发酵制酒精"
+      }
+    ],
+    "key_signs": ["催化剂改速率不改平衡", "不消耗可重复", "具高度选择性"],
+    "related_categories": ["catalyst", "industrial", "enzyme"],
+    "difficulty": 3,
+    "tags": ["核心", "通用", "工业", "酶催化"]
+  },
+  {
+    "type_id": "hydrogenation",
+    "name_zh": "氢化反应",
+    "name_en": "Hydrogenation",
+    "category": "organic",
+    "category_zh": "有机反应",
+    "general_form": "不饱和有机物 + H₂ → 饱和有机物(催化剂)",
+    "description": "在催化剂作用下,不饱和键(C=C/C≡C/C=O/苯环)与 H₂ 加成生成饱和产物",
+    "conditions": ["Ni/Pd/Pt 催化剂", "加热加压(部分)", "油脂氢化制硬化油/植物黄油"],
+    "examples": [
+      {
+        "equation": "CH₂=CH₂ + H₂ →(Ni, Δ)CH₃−CH₃",
+        "note": "乙烯催化加氢制乙烷"
+      },
+      {
+        "equation": "C₆H₆ + 3H₂ →(Ni, Δ)环己烷",
+        "note": "苯加氢制环己烷,生产尼龙-6 前体"
+      },
+      {
+        "equation": "油酸甘油酯 + H₂ →(Ni)硬脂酸甘油酯",
+        "note": "植物油氢化制人造黄油/起酥油,工业食品工艺"
+      }
+    ],
+    "key_signs": ["加 H₂ 不饱和度降低", "需金属催化", "油脂工业核心"],
+    "related_categories": ["alkene", "aromatic", "oil", "fat"],
+    "difficulty": 3,
+    "tags": ["核心", "有机", "加成特例", "油脂工业"]
   }
 ]
