@@ -7,7 +7,11 @@
     "category_zh": "无机反应",
     "general_form": "A + B → AB",
     "description": "两种或两种以上单质/化合物生成一种新化合物的反应",
-    "conditions": ["常温或加热", "部分需催化剂", "部分需高压/光照"],
+    "conditions": [
+      "常温或加热",
+      "部分需催化剂",
+      "部分需高压/光照"
+    ],
     "examples": [
       {
         "equation": "2H₂ + O₂ → 2H₂O",
@@ -22,10 +26,22 @@
         "note": "生石灰消化,放热"
       }
     ],
-    "key_signs": ["多变一", "生成新物质", "常伴随放热"],
-    "related_categories": ["element", "oxide", "salt"],
+    "key_signs": [
+      "多变一",
+      "生成新物质",
+      "常伴随放热"
+    ],
+    "related_categories": [
+      "element",
+      "oxide",
+      "salt"
+    ],
     "difficulty": 1,
-    "tags": ["基础", "无机", "四基本反应类型"]
+    "tags": [
+      "基础",
+      "无机",
+      "四基本反应类型"
+    ]
   },
   {
     "type_id": "decomposition",
@@ -35,7 +51,11 @@
     "category_zh": "无机反应",
     "general_form": "AB → A + B",
     "description": "一种化合物分解为两种或两种以上单质/化合物的反应",
-    "conditions": ["常需加热", "部分需催化剂/电解", "部分需光照"],
+    "conditions": [
+      "常需加热",
+      "部分需催化剂/电解",
+      "部分需光照"
+    ],
     "examples": [
       {
         "equation": "2H₂O → 2H₂ + O₂",
@@ -50,10 +70,22 @@
         "note": "实验室制氧气,二氧化锰催化"
       }
     ],
-    "key_signs": ["一变多", "常需持续供能", "气体/沉淀生成"],
-    "related_categories": ["oxide", "salt", "hydroxide"],
+    "key_signs": [
+      "一变多",
+      "常需持续供能",
+      "气体/沉淀生成"
+    ],
+    "related_categories": [
+      "oxide",
+      "salt",
+      "hydroxide"
+    ],
     "difficulty": 1,
-    "tags": ["基础", "无机", "四基本反应类型"]
+    "tags": [
+      "基础",
+      "无机",
+      "四基本反应类型"
+    ]
   },
   {
     "type_id": "single_replacement",
@@ -63,7 +95,10 @@
     "category_zh": "无机反应",
     "general_form": "A + BC → AC + B",
     "description": "一种单质与一种化合物反应,生成新单质和新化合物",
-    "conditions": ["依据金属活动性顺序表", "依据非金属活动性顺序"],
+    "conditions": [
+      "依据金属活动性顺序表",
+      "依据非金属活动性顺序"
+    ],
     "examples": [
       {
         "equation": "Fe + CuSO₄ → FeSO₄ + Cu",
@@ -78,10 +113,24 @@
         "note": "卤素置换,Cl 比 Br 活泼"
       }
     ],
-    "key_signs": ["单质+化合物→新单质+新化合物", "受活动性顺序约束", "常为氧化还原"],
-    "related_categories": ["metal", "halogen", "acid", "salt"],
+    "key_signs": [
+      "单质+化合物→新单质+新化合物",
+      "受活动性顺序约束",
+      "常为氧化还原"
+    ],
+    "related_categories": [
+      "metal",
+      "halogen",
+      "acid",
+      "salt"
+    ],
     "difficulty": 2,
-    "tags": ["基础", "无机", "四基本反应类型", "氧化还原"]
+    "tags": [
+      "基础",
+      "无机",
+      "四基本反应类型",
+      "氧化还原"
+    ]
   },
   {
     "type_id": "double_replacement",
@@ -91,7 +140,10 @@
     "category_zh": "无机反应",
     "general_form": "AB + CD → AD + CB",
     "description": "两种化合物互相交换成分,生成两种新化合物",
-    "conditions": ["生成沉淀/气体/水/弱电解质之一才可发生", "反应物均可溶(酸碱中和除外)"],
+    "conditions": [
+      "生成沉淀/气体/水/弱电解质之一才可发生",
+      "反应物均可溶(酸碱中和除外)"
+    ],
     "examples": [
       {
         "equation": "NaCl + AgNO₃ → AgCl↓ + NaNO₃",
@@ -106,10 +158,23 @@
         "note": "中和反应也是复分解特例"
       }
     ],
-    "key_signs": ["两化合物互换", "需满足沉淀/气体/水驱动条件", "元素化合价不变"],
-    "related_categories": ["salt", "acid", "base", "oxide"],
+    "key_signs": [
+      "两化合物互换",
+      "需满足沉淀/气体/水驱动条件",
+      "元素化合价不变"
+    ],
+    "related_categories": [
+      "salt",
+      "acid",
+      "base",
+      "oxide"
+    ],
     "difficulty": 2,
-    "tags": ["基础", "无机", "四基本反应类型"]
+    "tags": [
+      "基础",
+      "无机",
+      "四基本反应类型"
+    ]
   },
   {
     "type_id": "combustion",
@@ -119,7 +184,11 @@
     "category_zh": "无机反应",
     "general_form": "可燃物 + O₂ → 氧化物 (+ 能量)",
     "description": "可燃物与氧气发生的剧烈氧化还原反应,放热发光",
-    "conditions": ["温度达到着火点", "与氧气充分接触", "可燃物为还原剂"],
+    "conditions": [
+      "温度达到着火点",
+      "与氧气充分接触",
+      "可燃物为还原剂"
+    ],
     "examples": [
       {
         "equation": "CH₄ + 2O₂ → CO₂ + 2H₂O",
@@ -134,10 +203,23 @@
         "note": "铁丝在氧气中燃烧,火星四射"
       }
     ],
-    "key_signs": ["放热发光", "氧气参与", "常需点燃/着火点"],
-    "related_categories": ["hydrocarbon", "fuel", "metal"],
+    "key_signs": [
+      "放热发光",
+      "氧气参与",
+      "常需点燃/着火点"
+    ],
+    "related_categories": [
+      "hydrocarbon",
+      "fuel",
+      "metal"
+    ],
     "difficulty": 1,
-    "tags": ["基础", "无机", "氧化还原", "能源化学"]
+    "tags": [
+      "基础",
+      "无机",
+      "氧化还原",
+      "能源化学"
+    ]
   },
   {
     "type_id": "redox",
@@ -147,7 +229,11 @@
     "category_zh": "无机反应",
     "general_form": "氧化剂 + 还原剂 → 还原产物 + 氧化产物",
     "description": "有电子转移(化合价变化)的反应,氧化与还原同时发生",
-    "conditions": ["存在化合价变化", "常见氧化剂:O₂/HNO₃/KMnO₄/Cl₂", "常见还原剂:H₂/C/CO/活泼金属"],
+    "conditions": [
+      "存在化合价变化",
+      "常见氧化剂:O₂/HNO₃/KMnO₄/Cl₂",
+      "常见还原剂:H₂/C/CO/活泼金属"
+    ],
     "examples": [
       {
         "equation": "Cu + 2AgNO₃ → Cu(NO₃)₂ + 2Ag",
@@ -162,10 +248,23 @@
         "note": "工业炼铁,CO 还原 Fe₂O₃"
       }
     ],
-    "key_signs": ["化合价变化", "电子转移", "氧化剂得电子/还原剂失电子"],
-    "related_categories": ["metal", "oxidant", "reductant"],
+    "key_signs": [
+      "化合价变化",
+      "电子转移",
+      "氧化剂得电子/还原剂失电子"
+    ],
+    "related_categories": [
+      "metal",
+      "oxidant",
+      "reductant"
+    ],
     "difficulty": 3,
-    "tags": ["核心", "无机", "电化学基础", "工业核心"]
+    "tags": [
+      "核心",
+      "无机",
+      "电化学基础",
+      "工业核心"
+    ]
   },
   {
     "type_id": "neutralization",
@@ -175,7 +274,10 @@
     "category_zh": "无机反应",
     "general_form": "酸 + 碱 → 盐 + 水",
     "description": "酸中的 H⁺ 与碱中的 OH⁻ 结合生成水的反应,放热",
-    "conditions": ["酸与碱在水溶液中进行", "强酸强碱完全中和生成强酸强碱盐"],
+    "conditions": [
+      "酸与碱在水溶液中进行",
+      "强酸强碱完全中和生成强酸强碱盐"
+    ],
     "examples": [
       {
         "equation": "HCl + NaOH → NaCl + H₂O",
@@ -190,10 +292,23 @@
         "note": "硫酸与氢氧化钡,生成沉淀 + 水,双驱动"
       }
     ],
-    "key_signs": ["H⁺ + OH⁻ → H₂O", "放热", "生成盐和水"],
-    "related_categories": ["acid", "base", "salt"],
+    "key_signs": [
+      "H⁺ + OH⁻ → H₂O",
+      "放热",
+      "生成盐和水"
+    ],
+    "related_categories": [
+      "acid",
+      "base",
+      "salt"
+    ],
     "difficulty": 1,
-    "tags": ["基础", "无机", "复分解特例", "pH"]
+    "tags": [
+      "基础",
+      "无机",
+      "复分解特例",
+      "pH"
+    ]
   },
   {
     "type_id": "precipitation",
@@ -203,7 +318,11 @@
     "category_zh": "无机反应",
     "general_form": "可溶盐 A + 可溶盐 B → 沉淀 + 新盐",
     "description": "溶液中离子结合生成难溶电解质(沉淀)的反应",
-    "conditions": ["生成物 Ksp 极小(难溶)", "离子浓度足够", "符合复分解驱动条件"],
+    "conditions": [
+      "生成物 Ksp 极小(难溶)",
+      "离子浓度足够",
+      "符合复分解驱动条件"
+    ],
     "examples": [
       {
         "equation": "BaCl₂ + Na₂SO₄ → BaSO₄↓ + 2NaCl",
@@ -218,10 +337,22 @@
         "note": "白色 AgCl 沉淀,Cl⁻ 检验反应"
       }
     ],
-    "key_signs": ["生成难溶物 ↓", "离子反应", "定性分析常用"],
-    "related_categories": ["salt", "hydroxide"],
+    "key_signs": [
+      "生成难溶物 ↓",
+      "离子反应",
+      "定性分析常用"
+    ],
+    "related_categories": [
+      "salt",
+      "hydroxide"
+    ],
     "difficulty": 2,
-    "tags": ["基础", "无机", "复分解特例", "分析化学"]
+    "tags": [
+      "基础",
+      "无机",
+      "复分解特例",
+      "分析化学"
+    ]
   },
   {
     "type_id": "esterification",
@@ -231,7 +362,11 @@
     "category_zh": "有机反应",
     "general_form": "羧酸 + 醇 → 酯 + 水",
     "description": "羧酸与醇在酸催化下脱水生成酯,典型可逆反应",
-    "conditions": ["浓硫酸催化", "加热(Δ)", "可逆反应,通常脱水使平衡右移"],
+    "conditions": [
+      "浓硫酸催化",
+      "加热(Δ)",
+      "可逆反应,通常脱水使平衡右移"
+    ],
     "examples": [
       {
         "equation": "CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O",
@@ -246,10 +381,23 @@
         "note": "高级脂肪酸甘油酯,天然油脂来源"
       }
     ],
-    "key_signs": ["酸 + 醇 → 酯 + 水", "浓 H₂SO₄ 催化", "可逆"],
-    "related_categories": ["carboxylic_acid", "alcohol", "ester"],
+    "key_signs": [
+      "酸 + 醇 → 酯 + 水",
+      "浓 H₂SO₄ 催化",
+      "可逆"
+    ],
+    "related_categories": [
+      "carboxylic_acid",
+      "alcohol",
+      "ester"
+    ],
     "difficulty": 3,
-    "tags": ["核心", "有机", "可逆反应", "官能团"]
+    "tags": [
+      "核心",
+      "有机",
+      "可逆反应",
+      "官能团"
+    ]
   },
   {
     "type_id": "addition",
@@ -259,7 +407,11 @@
     "category_zh": "有机反应",
     "general_form": "不饱和键 + 试剂 → 饱和产物",
     "description": "不饱和键(C=C / C≡C / C=O)打开,两端各连接新原子/基团",
-    "conditions": ["催化剂常见:N/Pd/Ni/H⁺", "加 H₂/X₂/HX/H₂O", "光照/加热可选"],
+    "conditions": [
+      "催化剂常见:N/Pd/Ni/H⁺",
+      "加 H₂/X₂/HX/H₂O",
+      "光照/加热可选"
+    ],
     "examples": [
       {
         "equation": "CH₂=CH₂ + Br₂ → CH₂Br-CH₂Br",
@@ -274,10 +426,23 @@
         "note": "乙炔加 HCl 制氯乙烯,进而聚合成 PVC"
       }
     ],
-    "key_signs": ["不饱和度降低", "无小分子生成", "试剂加到双键/三键两端"],
-    "related_categories": ["alkene", "alkyne", "aromatic"],
+    "key_signs": [
+      "不饱和度降低",
+      "无小分子生成",
+      "试剂加到双键/三键两端"
+    ],
+    "related_categories": [
+      "alkene",
+      "alkyne",
+      "aromatic"
+    ],
     "difficulty": 3,
-    "tags": ["核心", "有机", "不饱和烃", "聚合前体"]
+    "tags": [
+      "核心",
+      "有机",
+      "不饱和烃",
+      "聚合前体"
+    ]
   },
   {
     "type_id": "substitution",
@@ -287,7 +452,11 @@
     "category_zh": "有机反应",
     "general_form": "A-B + C-D → A-D + C-B",
     "description": "有机分子中某一原子/基团被另一原子/基团替换的反应",
-    "conditions": ["光照/加热/催化剂常见", "亲核/亲电/自由基三种机理", "烷烃卤代/苯环硝化/酯水解均属此类"],
+    "conditions": [
+      "光照/加热/催化剂常见",
+      "亲核/亲电/自由基三种机理",
+      "烷烃卤代/苯环硝化/酯水解均属此类"
+    ],
     "examples": [
       {
         "equation": "CH₄ + Cl₂ → CH₃Cl + HCl(光照)",
@@ -302,10 +471,24 @@
         "note": "卤代烃水解,亲核取代 SN"
       }
     ],
-    "key_signs": ["有进有出", "不饱和度不变", "常生成小分子 HX/H₂O"],
-    "related_categories": ["alkane", "aromatic", "halide", "alcohol"],
+    "key_signs": [
+      "有进有出",
+      "不饱和度不变",
+      "常生成小分子 HX/H₂O"
+    ],
+    "related_categories": [
+      "alkane",
+      "aromatic",
+      "halide",
+      "alcohol"
+    ],
     "difficulty": 3,
-    "tags": ["核心", "有机", "机理基础", "亲核/亲电"]
+    "tags": [
+      "核心",
+      "有机",
+      "机理基础",
+      "亲核/亲电"
+    ]
   },
   {
     "type_id": "elimination",
@@ -315,7 +498,11 @@
     "category_zh": "有机反应",
     "general_form": "饱和有机物 → 不饱和有机物 + 小分子(HX/H₂O)",
     "description": "从一个有机分子脱去小分子(HX/H₂O),生成不饱和键(C=C/C≡C)",
-    "conditions": ["NaOH/醇溶液 或 浓 H₂SO₄ 催化", "加热", "β-消除为主(E1/E2 机理)"],
+    "conditions": [
+      "NaOH/醇溶液 或 浓 H₂SO₄ 催化",
+      "加热",
+      "β-消除为主(E1/E2 机理)"
+    ],
     "examples": [
       {
         "equation": "CH₃CH₂Br + NaOH(醇)→ CH₂=CH₂↑ + NaBr + H₂O",
@@ -330,10 +517,23 @@
         "note": "乙醇分子间脱水生成乙醚,与消去竞争"
       }
     ],
-    "key_signs": ["小分子脱去", "不饱和度升高", "需 β-H"],
-    "related_categories": ["alkyl_halide", "alcohol", "alkene"],
+    "key_signs": [
+      "小分子脱去",
+      "不饱和度升高",
+      "需 β-H"
+    ],
+    "related_categories": [
+      "alkyl_halide",
+      "alcohol",
+      "alkene"
+    ],
     "difficulty": 3,
-    "tags": ["核心", "有机", "与取代竞争", "烯烃制备"]
+    "tags": [
+      "核心",
+      "有机",
+      "与取代竞争",
+      "烯烃制备"
+    ]
   },
   {
     "type_id": "polymerization",
@@ -343,7 +543,11 @@
     "category_zh": "有机反应",
     "general_form": "n·单体 → 高聚物(链节重复 n 次)",
     "description": "单体小分子通过加成/缩合/开环等机理形成高分子聚合物的反应",
-    "conditions": ["引发剂/催化剂/光/热", "加聚(无小分子)/缩聚(脱 H₂O/HCl)", "控制温度与压力"],
+    "conditions": [
+      "引发剂/催化剂/光/热",
+      "加聚(无小分子)/缩聚(脱 H₂O/HCl)",
+      "控制温度与压力"
+    ],
     "examples": [
       {
         "equation": "n CH₂=CH₂ →(催化剂)−[CH₂−CH₂]ₙ−",
@@ -358,10 +562,24 @@
         "note": "己二胺与己二酸缩聚制尼龙-66"
       }
     ],
-    "key_signs": ["小分子聚成大分子", "分子量数千至百万", "加聚无小分子/缩聚有小分子"],
-    "related_categories": ["alkene", "amide", "polymer", "monomer"],
+    "key_signs": [
+      "小分子聚成大分子",
+      "分子量数千至百万",
+      "加聚无小分子/缩聚有小分子"
+    ],
+    "related_categories": [
+      "alkene",
+      "amide",
+      "polymer",
+      "monomer"
+    ],
     "difficulty": 4,
-    "tags": ["核心", "有机", "高分子", "材料化学"]
+    "tags": [
+      "核心",
+      "有机",
+      "高分子",
+      "材料化学"
+    ]
   },
   {
     "type_id": "electrolysis",
@@ -371,7 +589,11 @@
     "category_zh": "无机反应",
     "general_form": "化合物 →(通电)单质/新化合物(阴/阳极分别反应)",
     "description": "电流通过电解质溶液或熔融态化合物,驱动非自发的氧化还原反应",
-    "conditions": ["外加电源", "电解质溶液或熔融态", "阴阳极分别发生还原/氧化"],
+    "conditions": [
+      "外加电源",
+      "电解质溶液或熔融态",
+      "阴阳极分别发生还原/氧化"
+    ],
     "examples": [
       {
         "equation": "2H₂O →(通电)2H₂↑ + O₂↑",
@@ -386,10 +608,24 @@
         "note": "电解熔融氧化铝制金属铝,冰晶石助熔"
       }
     ],
-    "key_signs": ["外加电源", "强制氧化还原", "阴阳极产物不同"],
-    "related_categories": ["electrolyte", "metal", "gas", "industrial"],
+    "key_signs": [
+      "外加电源",
+      "强制氧化还原",
+      "阴阳极产物不同"
+    ],
+    "related_categories": [
+      "electrolyte",
+      "metal",
+      "gas",
+      "industrial"
+    ],
     "difficulty": 4,
-    "tags": ["核心", "无机", "电化学", "工业核心"]
+    "tags": [
+      "核心",
+      "无机",
+      "电化学",
+      "工业核心"
+    ]
   },
   {
     "type_id": "catalysis",
@@ -399,7 +635,11 @@
     "category_zh": "通用机理",
     "general_form": "反应物 →(催化剂)产物(催化剂不消耗)",
     "description": "催化剂通过降低活化能改变反应速率,自身在反应前后质量和化学性质不变",
-    "conditions": ["催化剂选择性高", "不进入产物结构", "均相/多相/生物酶三大类"],
+    "conditions": [
+      "催化剂选择性高",
+      "不进入产物结构",
+      "均相/多相/生物酶三大类"
+    ],
     "examples": [
       {
         "equation": "2H₂O₂ →(MnO₂)2H₂O + O₂↑",
@@ -414,10 +654,23 @@
         "note": "葡萄糖酶催化发酵制酒精"
       }
     ],
-    "key_signs": ["催化剂改速率不改平衡", "不消耗可重复", "具高度选择性"],
-    "related_categories": ["catalyst", "industrial", "enzyme"],
+    "key_signs": [
+      "催化剂改速率不改平衡",
+      "不消耗可重复",
+      "具高度选择性"
+    ],
+    "related_categories": [
+      "catalyst",
+      "industrial",
+      "enzyme"
+    ],
     "difficulty": 3,
-    "tags": ["核心", "通用", "工业", "酶催化"]
+    "tags": [
+      "核心",
+      "通用",
+      "工业",
+      "酶催化"
+    ]
   },
   {
     "type_id": "hydrogenation",
@@ -427,7 +680,11 @@
     "category_zh": "有机反应",
     "general_form": "不饱和有机物 + H₂ → 饱和有机物(催化剂)",
     "description": "在催化剂作用下,不饱和键(C=C/C≡C/C=O/苯环)与 H₂ 加成生成饱和产物",
-    "conditions": ["Ni/Pd/Pt 催化剂", "加热加压(部分)", "油脂氢化制硬化油/植物黄油"],
+    "conditions": [
+      "Ni/Pd/Pt 催化剂",
+      "加热加压(部分)",
+      "油脂氢化制硬化油/植物黄油"
+    ],
     "examples": [
       {
         "equation": "CH₂=CH₂ + H₂ →(Ni, Δ)CH₃−CH₃",
@@ -442,9 +699,224 @@
         "note": "植物油氢化制人造黄油/起酥油,工业食品工艺"
       }
     ],
-    "key_signs": ["加 H₂ 不饱和度降低", "需金属催化", "油脂工业核心"],
-    "related_categories": ["alkene", "aromatic", "oil", "fat"],
+    "key_signs": [
+      "加 H₂ 不饱和度降低",
+      "需金属催化",
+      "油脂工业核心"
+    ],
+    "related_categories": [
+      "alkene",
+      "aromatic",
+      "oil",
+      "fat"
+    ],
     "difficulty": 3,
-    "tags": ["核心", "有机", "加成特例", "油脂工业"]
+    "tags": [
+      "核心",
+      "有机",
+      "加成特例",
+      "油脂工业"
+    ]
+  },
+  {
+    "type_id": "hydrolysis",
+    "name_zh": "水解反应",
+    "name_en": "Hydrolysis",
+    "category": "general",
+    "category_zh": "通用机理",
+    "general_form": "化合物 + H₂O → 水解产物(酸/碱/醇/糖/盐等)",
+    "description": "化合物与水发生的复分解反应,水中的 H⁺/OH⁻ 进入产物骨架,生成新化合物",
+    "conditions": [
+      "酸/碱/酶催化常见",
+      "可逆(酯化逆反应)",
+      "盐类水解程度由 Ka/Kb 决定"
+    ],
+    "examples": [
+      {
+        "equation": "CH₃COOC₂H₅ + H₂O ⇌(稀酸/碱)CH₃COOH + C₂H₅OH",
+        "note": "酯水解,皂化/制皂/油脂制取甘油"
+      },
+      {
+        "equation": "C₁₂H₂₂O₁₁(蔗糖)+ H₂O →(稀酸/酶)葡萄糖 + 果糖",
+        "note": "蔗糖水解,工业制转化糖"
+      },
+      {
+        "equation": "Na₂CO₃ + H₂O ⇌ NaHCO₃ + NaOH",
+        "note": "强碱弱酸盐水解,溶液呈碱性,泡沫灭火器原理"
+      },
+      {
+        "equation": "CH₃CH₂Cl + H₂O →(NaOH)CH₃CH₂OH + HCl",
+        "note": "卤代烃水解制醇,亲核取代 SN1/SN2"
+      }
+    ],
+    "key_signs": [
+      "H₂O 参与并分解为 H/OH 进入产物",
+      "酯/糖/盐/卤代烃/酰胺/蛋白质均可水解",
+      "常为可逆反应"
+    ],
+    "related_categories": [
+      "ester",
+      "sugar",
+      "salt",
+      "halide",
+      "amide"
+    ],
+    "difficulty": 3,
+    "tags": [
+      "核心",
+      "通用",
+      "复分解延伸",
+      "生化基础"
+    ]
+  },
+  {
+    "type_id": "condensation",
+    "name_zh": "缩合反应",
+    "name_en": "Condensation",
+    "category": "organic",
+    "category_zh": "有机反应",
+    "general_form": "分子 A-H + B-H → A-B + H₂O(或 HCl 等小分子)",
+    "description": "两个或多个有机分子通过脱去小分子(H₂O/HCl/ROH)结合形成新分子的反应,常生成高分子前体",
+    "conditions": [
+      "脱水/脱 HCl/脱醇",
+      "加热与脱水剂(P₂O₅/浓 H₂SO₄)",
+      "酸/碱催化"
+    ],
+    "examples": [
+      {
+        "equation": "n H₂N-CHR-COOH →(脱水)−[NH-CHR-CO]ₙ− + n H₂O",
+        "note": "氨基酸缩合制多肽/蛋白质,生化核心"
+      },
+      {
+        "equation": "2 CH₃CHO →(稀碱)CH₃CH=CHCHO + H₂O",
+        "note": "羟醛缩合(Aldol),增长碳链经典反应"
+      },
+      {
+        "equation": "n HOOC-(CH₂)₄-COOH + n H₂N-(CH₂)₆-NH₂ → 尼龙-66 + 2n H₂O",
+        "note": "二元酸与二元胺缩聚制尼龙"
+      },
+      {
+        "equation": "3 C₆H₅OH + CH₃CHO → 酚醛树脂 + H₂O",
+        "note": "苯酚与甲醛缩聚制酚醛树脂(电木)"
+      }
+    ],
+    "key_signs": [
+      "两分子或多分子结合",
+      "脱去 H₂O/HCl/ROH 等小分子",
+      "常生成高分子/长链"
+    ],
+    "related_categories": [
+      "amino_acid",
+      "aldehyde",
+      "polymer",
+      "amide"
+    ],
+    "difficulty": 4,
+    "tags": [
+      "核心",
+      "有机",
+      "聚合前体",
+      "生化"
+    ]
+  },
+  {
+    "type_id": "isomerization",
+    "name_zh": "异构化反应",
+    "name_en": "Isomerization",
+    "category": "organic",
+    "category_zh": "有机反应",
+    "general_form": "A-异构体 ⇌ B-异构体(分子式不变,结构变化)",
+    "description": "分子内原子或基团重排,生成不同结构但同分子式的异构体;含顺反/互变/差向/旋光异构等",
+    "conditions": [
+      "加热/光照/酸碱催化",
+      "酶催化(生物体内)",
+      "过渡金属催化(工业)"
+    ],
+    "examples": [
+      {
+        "equation": "顺-2-丁烯 ⇌(光/热)反-2-丁烯",
+        "note": "顺反异构化,顺式能量高,光照触发"
+      },
+      {
+        "equation": "酮式 R-CO-CH₂-R' ⇌ 烯醇式 R-C(OH)=CH-R'",
+        "note": "酮-烯醇互变异构,氢原子在 C/O 间迁移"
+      },
+      {
+        "equation": "正丁烷 ⇌(AlCl₃/催化)异丁烷",
+        "note": "烷烃骨架异构,工业制异辛烷前体"
+      },
+      {
+        "equation": "α-D-葡萄糖 ⇌ 开链醛式 ⇌ β-D-葡萄糖",
+        "note": "变旋现象,糖化学基础"
+      }
+    ],
+    "key_signs": [
+      "分子式相同结构不同",
+      "不增减原子",
+      "常为可逆平衡"
+    ],
+    "related_categories": [
+      "alkene",
+      "sugar",
+      "alkane",
+      "tautomer"
+    ],
+    "difficulty": 4,
+    "tags": [
+      "核心",
+      "有机",
+      "结构化学",
+      "生物化学"
+    ]
+  },
+  {
+    "type_id": "disproportionation",
+    "name_zh": "歧化反应",
+    "name_en": "Disproportionation",
+    "category": "inorganic",
+    "category_zh": "无机反应",
+    "general_form": "中间价态元素 → 高价产物 + 低价产物(自身氧化还原)",
+    "description": "同一元素在反应中既被氧化又被还原,化合价分向高/低两端,是氧化还原的特例",
+    "conditions": [
+      "反应物元素处于中间价态",
+      "歧化产物可同时存在",
+      "常需碱/加热/光照引发"
+    ],
+    "examples": [
+      {
+        "equation": "Cl₂ + 2 NaOH → NaCl + NaClO + H₂O",
+        "note": "氯气歧化制漂白液,Cl 0 价 → -1/+1"
+      },
+      {
+        "equation": "3 Cl₂ + 6 NaOH →(Δ)5 NaCl + NaClO₃ + 3 H₂O",
+        "note": "热碱歧化制氯酸盐,Cl 0 → -1/+5"
+      },
+      {
+        "equation": "2 H₂O₂ →(MnO₂)2 H₂O + O₂↑",
+        "note": "过氧化氢歧化,O -1 → -2/0,工业/医用消毒"
+      },
+      {
+        "equation": "2 NO₂ + 2 NaOH → NaNO₂ + NaNO₃ + H₂O",
+        "note": "二氧化氮歧化吸收,N +4 → +3/+5,工业尾气处理"
+      }
+    ],
+    "key_signs": [
+      "同元素化合价分向两端",
+      "自身氧化还原",
+      "常生成两种价态产物"
+    ],
+    "related_categories": [
+      "halogen",
+      "peroxide",
+      "nitrogen_oxide",
+      "redox"
+    ],
+    "difficulty": 4,
+    "tags": [
+      "核心",
+      "无机",
+      "氧化还原特例",
+      "工业"
+    ]
   }
 ]
