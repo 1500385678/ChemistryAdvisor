@@ -41,3 +41,34 @@
 ## 自动化
 - 巡检: 每日 02:30 触发,输出 `.Log/巡检-化学-YYYYMMDD.md`(不修改主计划)
 - 开发: 每日 03:30 触发,读 `.plan/YYYYMMDD.md` → 产出 1 个小变更 → 推 Gitee + GitHub
+
+## 开发节奏 · T1-T5 角色分工
+
+> 落地于 2026-09-05 双计划分工决断(详见 `项目开发计划.md` §一 · 主计划声明 + `.plan/20260905.md` §一)。本节明确 5 个角色的职责边界,便于每日 T1-T5 自动派单与 commit 复盘。
+
+| 角色 | 职责 | 频率 | 落地位置 |
+|------|------|------|----------|
+| **T1 · 计划** | `.plan/YYYYMMDD.md` 起草 / 主计划 checkbox 维护 / Phase 收口清单 | 每日 | `项目开发计划.md` / `.plan/` |
+| **T2 · 改bug** | README / 文档修正 / 配置修复 / 小修小补 | 每日 | `README.md` / 根目录配置 |
+| **T3 · 加API** | 化合物/反应/元素等数据资产增量 + 库扩 v2/v3/v4 | 每周 2-3 次 | `data/knowledge/*.json` |
+| **T4 · 优化/release** | git upstream 配 + push 落地 / 双计划同步声明 / 巡检→开发闭环 | 每日 | `README.md` / 主计划 / `git push` |
+| **T5 · 推release** | 元素/化合物等数据资产扩 v3/v4 + 节奏化落地 | 每周 2-3 次 | `data/knowledge/*.json` |
+
+### 当前节奏快照(2026-09-06)
+
+- **T1**(9/5 重启):推 `.plan/20260905.md` + 主计划 §五 .plan 治理 checkbox
+- **T2**(9/3):推 `eae2b7b docs(readme)` 补数据规模表
+- **T3**(9/4):推 `051a79e feat(data)` compounds v2 50 条
+- **T5**(9/2):推 `c1f8df7 feat(data)` elements v3 80 条
+- **T4**(9/6 今日):推 `双计划同步声明` + 配 git upstream 终结 11 巡检日半挂
+
+### 数据资产进度(2026-09-06)
+
+| 资产 | 进度 | 距 Phase 0 目标 |
+|------|------|----------------|
+| `elements.json` | 80 / 118 | 67.8%(差 38) |
+| `compounds.json` | 50 / 200 | 25.0%(差 150) |
+| `reaction_types.json` | 20 / 50 | 40.0%(差 30) |
+| `themes.json` | 10 | 主题分类骨架 |
+
+> Phase 0 deadline: 2026-09-07 24:00 · 距今 22h
