@@ -9,9 +9,9 @@
 
 详细规划见 `项目开发计划.md`,技术架构见 `化学顾问开发架构与计划.md`。
 
-## 数据规模 (2026-09-04)
+## 数据规模 (2026-09-08)
 
-数据层位于 `data/knowledge/`,目前进度:
+数据层位于 `data/knowledge/`,目前进度(2026-09-08 02:30 巡检快照,数据同 9/4,9/4→9/8 4 巡检日 0 增量):
 
 | 数据文件 | 条目数 | Phase 0 目标 | 进度 | 最近一次更新 |
 |---------|--------|-------------|------|------------|
@@ -20,7 +20,9 @@
 | `compounds.json` | 50 | 200 | 25.0% | 2026-09-04 v2 (+25 酸/碱/盐/氧化物/醇/羧酸/酯/多糖) |
 | `themes.json` | 10 | — | 主题分类 | 2026-08-24 起草 |
 
-总计:160 条结构化知识条目,Phase 0 整体进度约 42%。
+总计:160 条结构化知识条目,Phase 0 整体进度约 20%(50 化合物 + 20 反应 + 0 概念 / 200 化合物 + 50 反应 + 200 概念)。
+
+> **Phase 0 状态 (2026-09-08)**:deadline 9/7 24:00 已过 8.5h,实际完成度 ~20%,未正式收官,详见 `项目开发计划.md` §五 · Phase 0 收官声明。
 
 ### 化合物库 v2 新增 25 条明细
 
@@ -37,6 +39,15 @@
 ## 同步
 - GitHub: https://github.com/1500385678/ChemistryAdvisor
 - Gitee: https://gitee.com/architectzy/ChemistryAdvisor
+
+### git 同步状态 (2026-09-08 03:30 T4 闭环)
+
+| 远程 | 状态 | commit 落后 | tracking |
+|------|------|------------|----------|
+| `github/main` | ✅ 已配 tracking(2026-09-08)+ 已推 | 0 | `[github/main]` |
+| `gitee/main` | ✅ 已同步 | 0 | `[gitee/main]` |
+
+> 2026-09-08 终结 13 巡检日 GitHub 半挂(9/6 `df2b9f1` commit message 写"已配 upstream"但实际未配 tracking + 未 push,9/6→9/8 持续累积到 8 commit 落后)。本次 T4 闭环:`git branch --set-upstream-to=github/main` + `git push github main` 推 8 commit + `git push gitee main` 推 2 commit,commit message 标签 → git 状态事实。
 
 ## 自动化
 - 巡检: 每日 02:30 触发,输出 `.Log/巡检-化学-YYYYMMDD.md`(不修改主计划)
