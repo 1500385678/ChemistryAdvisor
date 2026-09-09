@@ -947,5 +947,480 @@
       "硝化纤维/赛璐珞"
     ],
     "hazard": "无"
+  },
+  {
+    "name_zh": "乙烷",
+    "name_en": "Ethane",
+    "formula": "C₂H₆",
+    "cas_number": "74-84-0",
+    "molecular_weight": 30.07,
+    "smiles": "CC",
+    "category": "alkane",
+    "category_zh": "烷烃",
+    "phase_at_stp": "gas",
+    "phase_zh": "气态",
+    "key_uses": [
+      "天然气组分",
+      "裂解制乙烯",
+      "冷冻剂",
+      "燃料"
+    ],
+    "hazard": "易燃气体"
+  },
+  {
+    "name_zh": "丙烷",
+    "name_en": "Propane",
+    "formula": "C₃H₈",
+    "cas_number": "74-98-6",
+    "molecular_weight": 44.1,
+    "smiles": "CCC",
+    "category": "alkane",
+    "category_zh": "烷烃",
+    "phase_at_stp": "gas",
+    "phase_zh": "气态",
+    "key_uses": [
+      "液化石油气(LPG)主成分",
+      "家用燃料",
+      "汽车燃料",
+      "气雾推进剂"
+    ],
+    "hazard": "易燃气体"
+  },
+  {
+    "name_zh": "正丁烷",
+    "name_en": "n-Butane",
+    "formula": "C₄H₁₀",
+    "cas_number": "106-97-8",
+    "molecular_weight": 58.12,
+    "smiles": "CCCC",
+    "category": "alkane",
+    "category_zh": "烷烃",
+    "phase_at_stp": "gas",
+    "phase_zh": "气态",
+    "key_uses": [
+      "打火机燃料",
+      "LPG 组分",
+      "汽油调和",
+      "制冷剂"
+    ],
+    "hazard": "易燃气体"
+  },
+  {
+    "name_zh": "乙烯",
+    "name_en": "Ethylene",
+    "formula": "C₂H₄",
+    "cas_number": "74-85-1",
+    "molecular_weight": 28.05,
+    "smiles": "C=C",
+    "category": "alkene",
+    "category_zh": "烯烃",
+    "phase_at_stp": "gas",
+    "phase_zh": "气态",
+    "key_uses": [
+      "全球产量最大有机化工原料",
+      "聚乙烯单体",
+      "催熟水果",
+      "乙二醇/环氧乙烷前体"
+    ],
+    "hazard": "易燃气体"
+  },
+  {
+    "name_zh": "丙烯",
+    "name_en": "Propylene",
+    "formula": "C₃H₆",
+    "cas_number": "115-07-1",
+    "molecular_weight": 42.08,
+    "smiles": "CC=C",
+    "category": "alkene",
+    "category_zh": "烯烃",
+    "phase_at_stp": "gas",
+    "phase_zh": "气态",
+    "key_uses": [
+      "聚丙烯单体",
+      "丙烯腈原料",
+      "异丙苯/丙酮",
+      "炼油副产品"
+    ],
+    "hazard": "易燃气体"
+  },
+  {
+    "name_zh": "1,3-丁二烯",
+    "name_en": "1,3-Butadiene",
+    "formula": "C₄H₆",
+    "cas_number": "106-99-0",
+    "molecular_weight": 54.09,
+    "smiles": "C=CC=C",
+    "category": "diene",
+    "category_zh": "二烯烃",
+    "phase_at_stp": "gas",
+    "phase_zh": "气态",
+    "key_uses": [
+      "合成橡胶(SBR/BR)单体",
+      "ABS 树脂",
+      "尼龙 66 前体",
+      "裂解 C4 馏分"
+    ],
+    "hazard": "易燃/疑似致癌"
+  },
+  {
+    "name_zh": "乙炔",
+    "name_en": "Acetylene",
+    "formula": "C₂H₂",
+    "cas_number": "74-86-2",
+    "molecular_weight": 26.04,
+    "smiles": "C#C",
+    "category": "alkyne",
+    "category_zh": "炔烃",
+    "phase_at_stp": "gas",
+    "phase_zh": "气态",
+    "key_uses": [
+      "氧炔焊(3000°C 火焰)",
+      "PVC 前体(电石法)",
+      "乙醛/醋酸合成",
+      "照明(电石灯)"
+    ],
+    "hazard": "极易燃/受压易爆"
+  },
+  {
+    "name_zh": "丙炔",
+    "name_en": "Propyne",
+    "formula": "C₃H₄",
+    "cas_number": "74-99-7",
+    "molecular_weight": 40.06,
+    "smiles": "CC#C",
+    "category": "alkyne",
+    "category_zh": "炔烃",
+    "phase_at_stp": "gas",
+    "phase_zh": "气态",
+    "key_uses": [
+      "丙酮合成中间体",
+      "特种燃料",
+      "有机合成砌块",
+      "焊接气"
+    ],
+    "hazard": "易燃气体"
+  },
+  {
+    "name_zh": "氯仿",
+    "name_en": "Chloroform",
+    "formula": "CHCl₃",
+    "cas_number": "67-66-3",
+    "molecular_weight": 119.38,
+    "smiles": "ClC(Cl)Cl",
+    "category": "haloalkane",
+    "category_zh": "卤代烃",
+    "phase_at_stp": "liquid",
+    "phase_zh": "液态",
+    "key_uses": [
+      "实验室溶剂(萃取/重结晶)",
+      "氟利昂前体",
+      "麻醉史(已淘汰)",
+      "有机合成介质"
+    ],
+    "hazard": "可疑致癌/肝毒性"
+  },
+  {
+    "name_zh": "四氯化碳",
+    "name_en": "Carbon tetrachloride",
+    "formula": "CCl₄",
+    "cas_number": "56-23-5",
+    "molecular_weight": 153.82,
+    "smiles": "ClC(Cl)(Cl)Cl",
+    "category": "haloalkane",
+    "category_zh": "卤代烃",
+    "phase_at_stp": "liquid",
+    "phase_zh": "液态",
+    "key_uses": [
+      "灭火剂(已禁用-臭氧层)",
+      "干洗溶剂(已淘汰)",
+      "氟利昂合成原料",
+      "有机氯化前体"
+    ],
+    "hazard": "肝毒/臭氧消耗/已禁用"
+  },
+  {
+    "name_zh": "乙醚",
+    "name_en": "Diethyl ether",
+    "formula": "(C₂H₅)₂O",
+    "cas_number": "60-29-7",
+    "molecular_weight": 74.12,
+    "smiles": "CCOCC",
+    "category": "ether",
+    "category_zh": "醚",
+    "phase_at_stp": "liquid",
+    "phase_zh": "液态",
+    "key_uses": [
+      "经典有机溶剂(Grignard/萃取)",
+      "起始麻醉剂(1846 首次)",
+      "汽油辛烷值提升",
+      "实验室蒸馏/萃取"
+    ],
+    "hazard": "极易燃/过氧化物风险"
+  },
+  {
+    "name_zh": "四氢呋喃",
+    "name_en": "Tetrahydrofuran",
+    "formula": "C₄H₈O",
+    "cas_number": "109-99-9",
+    "molecular_weight": 72.11,
+    "smiles": "C1CCOC1",
+    "category": "ether",
+    "category_zh": "醚",
+    "phase_at_stp": "liquid",
+    "phase_zh": "液态",
+    "key_uses": [
+      "聚四氢呋喃(PTMEG)单体",
+      "PVC/聚氨酯溶剂",
+      "Grignard 反应首选溶剂",
+      "制药中间体"
+    ],
+    "hazard": "易燃/过氧化物/可疑致癌"
+  },
+  {
+    "name_zh": "甲胺",
+    "name_en": "Methylamine",
+    "formula": "CH₃NH₂",
+    "cas_number": "74-89-5",
+    "molecular_weight": 31.06,
+    "smiles": "CN",
+    "category": "amine",
+    "category_zh": "胺",
+    "phase_at_stp": "gas",
+    "phase_zh": "气态",
+    "key_uses": [
+      "药物/农药中间体",
+      "染料/橡胶促进剂",
+      "NMP 溶剂原料",
+      "咖啡因/麻黄碱前体"
+    ],
+    "hazard": "易燃/腐蚀/强刺激性"
+  },
+  {
+    "name_zh": "苯胺",
+    "name_en": "Aniline",
+    "formula": "C₆H₅NH₂",
+    "cas_number": "62-53-3",
+    "molecular_weight": 93.13,
+    "smiles": "Nc1ccccc1",
+    "category": "amine",
+    "category_zh": "胺",
+    "phase_at_stp": "liquid",
+    "phase_zh": "液态",
+    "key_uses": [
+      "MDI/TDI 聚氨酯原料",
+      "染料中间体(偶氮/靛蓝)",
+      "磺胺药/对乙酰氨基酚前体",
+      "橡胶硫化促进剂"
+    ],
+    "hazard": "急性中毒/高铁血红蛋白/可疑致癌"
+  },
+  {
+    "name_zh": "甘氨酸",
+    "name_en": "Glycine",
+    "formula": "C₂H₅NO₂",
+    "cas_number": "56-40-6",
+    "molecular_weight": 75.07,
+    "smiles": "NCC(=O)O",
+    "category": "amino_acid",
+    "category_zh": "氨基酸",
+    "phase_at_stp": "solid",
+    "phase_zh": "固态",
+    "key_uses": [
+      "最简单的蛋白质氨基酸",
+      "食品/化妆品增味剂",
+      "谷胱甘肽前体",
+      "缓冲剂/医药辅料"
+    ],
+    "hazard": "无"
+  },
+  {
+    "name_zh": "丙氨酸",
+    "name_en": "Alanine",
+    "formula": "C₃H₇NO₂",
+    "cas_number": "56-41-7",
+    "molecular_weight": 89.09,
+    "smiles": "CC(N)C(=O)O",
+    "category": "amino_acid",
+    "category_zh": "氨基酸",
+    "phase_at_stp": "solid",
+    "phase_zh": "固态",
+    "key_uses": [
+      "蛋白氨基酸(β-丙氨酸=维生素 B5 前体)",
+      "食品增味剂",
+      "肝功能研究指标",
+      "生物化学缓冲"
+    ],
+    "hazard": "无"
+  },
+  {
+    "name_zh": "尿素",
+    "name_en": "Urea",
+    "formula": "CH₄N₂O",
+    "cas_number": "57-13-6",
+    "molecular_weight": 60.06,
+    "smiles": "NC(=O)N",
+    "category": "amide",
+    "category_zh": "酰胺",
+    "phase_at_stp": "solid",
+    "phase_zh": "固态",
+    "key_uses": [
+      "全球用量最大氮肥",
+      "三聚氰胺/UF 树脂原料",
+      "柴油尾气处理(AdBlue)",
+      "化妆品保湿/医药"
+    ],
+    "hazard": "无显著"
+  },
+  {
+    "name_zh": "乙腈",
+    "name_en": "Acetonitrile",
+    "formula": "CH₃CN",
+    "cas_number": "75-05-8",
+    "molecular_weight": 41.05,
+    "smiles": "CC#N",
+    "category": "nitrile",
+    "category_zh": "腈",
+    "phase_at_stp": "liquid",
+    "phase_zh": "液态",
+    "key_uses": [
+      "HPLC 首选流动相",
+      "丁二烯抽提溶剂",
+      "制药/农药中间体",
+      "锂电池电解液"
+    ],
+    "hazard": "急性毒性/易燃"
+  },
+  {
+    "name_zh": "硝基苯",
+    "name_en": "Nitrobenzene",
+    "formula": "C₆H₅NO₂",
+    "cas_number": "98-95-3",
+    "molecular_weight": 123.11,
+    "smiles": "[O-][N+](=O)c1ccccc1",
+    "category": "nitro_compound",
+    "category_zh": "硝基化合物",
+    "phase_at_stp": "liquid",
+    "phase_zh": "液态",
+    "key_uses": [
+      "苯胺主原料(Bechamp 还原)",
+      "鞋油/地板抛光",
+      "弗里德尔-克拉夫茨硝化试剂",
+      "炸药 TNT 前体"
+    ],
+    "hazard": "急性毒/高铁血红蛋白/致癌"
+  },
+  {
+    "name_zh": "正丁醇",
+    "name_en": "n-Butanol",
+    "formula": "C₄H₉OH",
+    "cas_number": "71-36-3",
+    "molecular_weight": 74.12,
+    "smiles": "CCCCO",
+    "category": "alcohol",
+    "category_zh": "醇",
+    "phase_at_stp": "liquid",
+    "phase_zh": "液态",
+    "key_uses": [
+      "溶剂(涂料/油漆)",
+      "乙酸丁酯(增塑剂/香料)",
+      "BA/SBR 原料",
+      "萃取剂"
+    ],
+    "hazard": "易燃/刺激"
+  },
+  {
+    "name_zh": "甲酸",
+    "name_en": "Formic acid",
+    "formula": "HCOOH",
+    "cas_number": "64-18-6",
+    "molecular_weight": 46.03,
+    "smiles": "OC=O",
+    "category": "carboxylic_acid",
+    "category_zh": "羧酸",
+    "phase_at_stp": "liquid",
+    "phase_zh": "液态",
+    "key_uses": [
+      "最简单的羧酸(蚂蚁毒液)",
+      "皮革鞣制",
+      "防腐剂(青贮饲料)",
+      "橡胶凝固剂"
+    ],
+    "hazard": "强腐蚀/皮肤灼伤"
+  },
+  {
+    "name_zh": "乙酸甲酯",
+    "name_en": "Methyl acetate",
+    "formula": "CH₃COOCH₃",
+    "cas_number": "79-20-9",
+    "molecular_weight": 74.08,
+    "smiles": "COC(=O)C",
+    "category": "ester",
+    "category_zh": "酯",
+    "phase_at_stp": "liquid",
+    "phase_zh": "液态",
+    "key_uses": [
+      "低毒快干溶剂(油漆/胶水)",
+      "香料载体",
+      "人造革",
+      "萃取剂"
+    ],
+    "hazard": "易燃/刺激"
+  },
+  {
+    "name_zh": "甲苯",
+    "name_en": "Toluene",
+    "formula": "C₇H₈",
+    "cas_number": "108-88-3",
+    "molecular_weight": 92.14,
+    "smiles": "Cc1ccccc1",
+    "category": "arene",
+    "category_zh": "芳香烃",
+    "phase_at_stp": "liquid",
+    "phase_zh": "液态",
+    "key_uses": [
+      "TDI/TNT 原料",
+      "溶剂(油漆/胶水/稀释剂)",
+      "汽油高辛烷值调和",
+      "苯乙烯前体"
+    ],
+    "hazard": "易燃/生殖毒性/中枢神经抑制"
+  },
+  {
+    "name_zh": "环己酮",
+    "name_en": "Cyclohexanone",
+    "formula": "C₆H₁₀O",
+    "cas_number": "108-94-1",
+    "molecular_weight": 98.14,
+    "smiles": "O=C1CCCCC1",
+    "category": "ketone",
+    "category_zh": "酮",
+    "phase_at_stp": "liquid",
+    "phase_zh": "液态",
+    "key_uses": [
+      "己内酰胺/尼龙 6 原料",
+      "油漆/树脂溶剂",
+      "己二酸前体",
+      "脱蜡剂"
+    ],
+    "hazard": "易燃/刺激/可疑致癌"
+  },
+  {
+    "name_zh": "苯甲醛",
+    "name_en": "Benzaldehyde",
+    "formula": "C₆H₅CHO",
+    "cas_number": "100-52-7",
+    "molecular_weight": 106.12,
+    "smiles": "O=Cc1ccccc1",
+    "category": "aldehyde",
+    "category_zh": "醛",
+    "phase_at_stp": "liquid",
+    "phase_zh": "液态",
+    "key_uses": [
+      "苦杏仁气味(食品香料)",
+      "苯甲醇/苯甲酸合成",
+      "染料中间体",
+      "医药/农药合成"
+    ],
+    "hazard": "刺激/致敏"
   }
 ]
