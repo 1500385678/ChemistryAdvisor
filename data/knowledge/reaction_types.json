@@ -918,5 +918,424 @@
       "氧化还原特例",
       "工业"
     ]
+  },
+  {
+    "type_id": "saponification",
+    "name_zh": "皂化反应",
+    "name_en": "Saponification",
+    "category": "organic",
+    "category_zh": "有机反应",
+    "general_form": "RCOOR' + NaOH → RCOONa + R'OH",
+    "description": "酯在碱性条件下的水解，生成羧酸盐和醇，是制备肥皂和长链羧酸钠盐的经典反应",
+    "conditions": [
+      "NaOH / KOH 水溶液",
+      "加热回流",
+      "油脂需醇稀释"
+    ],
+    "examples": [
+      {
+        "equation": "(C17H33COO)3C3H5 + 3 NaOH → 3 C17H33COONa + C3H5(OH)3",
+        "note": "硬脂酸甘油酯皂化，制肥皂（硬脂酸钠），工业核心反应"
+      },
+      {
+        "equation": "CH3COOC2H5 + NaOH → CH3COONa + C2H5OH",
+        "note": "乙酸乙酯皂化，实验室验证酯键断裂机制"
+      }
+    ],
+    "key_signs": [
+      "酯键断裂",
+      "碱性条件不可逆",
+      "生成羧酸盐 + 醇"
+    ],
+    "related_categories": [
+      "ester",
+      "carboxylic_acid",
+      "alcohol",
+      "alkali"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "有机",
+      "酯水解",
+      "工业",
+      "日化"
+    ]
+  },
+  {
+    "type_id": "nitration",
+    "name_zh": "硝化反应",
+    "name_en": "Nitration",
+    "category": "organic",
+    "category_zh": "有机反应",
+    "general_form": "R-H + HNO3 → R-NO2 + H2O",
+    "description": "向有机分子（尤其是芳环）引入硝基（-NO2）的反应，是制备芳香族硝基化合物的主要途径",
+    "conditions": [
+      "浓 HNO3 + 浓 H2SO4（混酸）",
+      "控温（苯硝化 50-60℃）",
+      "部分需发烟 HNO3"
+    ],
+    "examples": [
+      {
+        "equation": "C6H6 + HNO3 →(浓 H2SO4)C6H5NO2 + H2O",
+        "note": "苯硝化制硝基苯，染料/制药中间体"
+      },
+      {
+        "equation": "C6H5CH3 + 3 HNO3 →(浓 H2SO4)2,4,6-三硝基甲苯 + 3 H2O",
+        "note": "甲苯三硝化制 TNT 炸药"
+      }
+    ],
+    "key_signs": [
+      "引入 -NO2 硝基",
+      "芳环亲电取代",
+      "混酸体系"
+    ],
+    "related_categories": [
+      "aromatic",
+      "electrophilic_substitution",
+      "explosive",
+      "dye_intermediate"
+    ],
+    "difficulty": 3,
+    "tags": [
+      "有机",
+      "亲电取代",
+      "工业",
+      "炸药"
+    ]
+  },
+  {
+    "type_id": "sulfonation",
+    "name_zh": "磺化反应",
+    "name_en": "Sulfonation",
+    "category": "organic",
+    "category_zh": "有机反应",
+    "general_form": "R-H + H2SO4 → R-SO3H + H2O",
+    "description": "向有机分子（尤其是芳环）引入磺酸基（-SO3H）的反应，常用于制备水溶性染料中间体和离子交换树脂",
+    "conditions": [
+      "浓 H2SO4 或发烟 H2SO4",
+      "高温（苯磺化 80℃）",
+      "部分需 SO3 气体"
+    ],
+    "examples": [
+      {
+        "equation": "C6H6 + H2SO4 → C6H5SO3H + H2O",
+        "note": "苯磺化制苯磺酸，去污剂/染料中间体"
+      },
+      {
+        "equation": "C10H8 + H2SO4 →(80℃)α-萘磺酸 + H2O",
+        "note": "萘 α 位磺化，染料工业核心反应"
+      }
+    ],
+    "key_signs": [
+      "引入 -SO3H 磺酸基",
+      "芳环亲电取代",
+      "产物水溶性"
+    ],
+    "related_categories": [
+      "aromatic",
+      "electrophilic_substitution",
+      "surfactant",
+      "ion_exchange"
+    ],
+    "difficulty": 3,
+    "tags": [
+      "有机",
+      "亲电取代",
+      "工业",
+      "染料"
+    ]
+  },
+  {
+    "type_id": "halogenation",
+    "name_zh": "卤化反应",
+    "name_en": "Halogenation",
+    "category": "organic",
+    "category_zh": "有机反应",
+    "general_form": "R-H + X2 → R-X + HX",
+    "description": "向有机分子引入卤素原子（F/Cl/Br/I）的反应，芳烃卤化是亲电取代，烷烃卤化是自由基反应",
+    "conditions": [
+      "X2（Cl2/Br2）",
+      "芳烃：FeCl3 / AlCl3 催化（亲电）",
+      "烷烃：UV 或高温（自由基）"
+    ],
+    "examples": [
+      {
+        "equation": "C6H6 + Cl2 →(FeCl3)C6H5Cl + HCl",
+        "note": "苯氯化制氯苯，染料/农药中间体"
+      },
+      {
+        "equation": "CH4 + Cl2 →(UV)CH3Cl + HCl",
+        "note": "甲烷自由基氯化，自由基链反应经典案例"
+      }
+    ],
+    "key_signs": [
+      "引入 X 卤素",
+      "芳烃亲电 vs 烷烃自由基",
+      "催化剂区分反应机理"
+    ],
+    "related_categories": [
+      "aromatic",
+      "alkane",
+      "free_radical",
+      "electrophilic_substitution"
+    ],
+    "difficulty": 3,
+    "tags": [
+      "有机",
+      "亲电取代",
+      "自由基",
+      "工业"
+    ]
+  },
+  {
+    "type_id": "amidation",
+    "name_zh": "酰胺化反应",
+    "name_en": "Amidation",
+    "category": "organic",
+    "category_zh": "有机反应",
+    "general_form": "RCOOH + R'NH2 → RCONHR' + H2O",
+    "description": "羧酸（或其衍生物）与胺缩合形成酰胺键（-CONH-）的反应，是蛋白质肽键和合成酰胺类药物的基础反应",
+    "conditions": [
+      "加热脱水",
+      "活化剂（DCC/EDC/HOBt）",
+      "酰氯/酸酐路径更高效"
+    ],
+    "examples": [
+      {
+        "equation": "CH3COOH + NH3 →(Δ)CH3CONH2 + H2O",
+        "note": "乙酸 + 氨气制乙酰胺，纤维/制药中间体"
+      },
+      {
+        "equation": "C6H5COCl + CH3NH2 → C6H5CONHCH3 + HCl",
+        "note": "苯甲酰氯胺解制 N-甲基苯甲酰胺，活性高于羧酸"
+      }
+    ],
+    "key_signs": [
+      "形成酰胺键 -CONH-",
+      "脱水缩合",
+      "生物化学核心键"
+    ],
+    "related_categories": [
+      "carboxylic_acid",
+      "amine",
+      "peptide_bond",
+      "pharmaceutical"
+    ],
+    "difficulty": 3,
+    "tags": [
+      "有机",
+      "缩合",
+      "生物",
+      "药物"
+    ]
+  },
+  {
+    "type_id": "coupling",
+    "name_zh": "偶联反应",
+    "name_en": "Coupling Reaction",
+    "category": "organic",
+    "category_zh": "有机反应",
+    "general_form": "R-X + R'-Y →(Pd cat.)R-R'",
+    "description": "钯催化的 C-C 键形成反应总称（Suzuki/Heck/Sonogashira/Stille 等），现代有机合成构建复杂分子的核心工具",
+    "conditions": [
+      "Pd 催化剂（Pd(PPh3)4 / Pd(OAc)2）",
+      "碱（Na2CO3 / K3PO4 / Et3N）",
+      "有机溶剂（THF / DMF / 甲苯）"
+    ],
+    "examples": [
+      {
+        "equation": "C6H5Br + C6H5B(OH)2 →(Pd(PPh3)4, Na2CO3)C6H5-C6H5 + HBr",
+        "note": "Suzuki 偶联合联苯，制药/材料"
+      },
+      {
+        "equation": "C6H5I + CH2=CH-COOCH3 →(Pd(OAc)2, Et3N)C6H5-CH=CH-COOCH3 + HI",
+        "note": "Heck 偶联肉桂酸酯，染料中间体"
+      }
+    ],
+    "key_signs": [
+      "Pd 催化",
+      "C-C 键形成",
+      "现代合成核心"
+    ],
+    "related_categories": [
+      "aryl_halide",
+      "organoboron",
+      "palladium_catalyst",
+      "fine_chemical"
+    ],
+    "difficulty": 4,
+    "tags": [
+      "有机",
+      "催化",
+      "现代合成",
+      "精细化工"
+    ]
+  },
+  {
+    "type_id": "carbonylation",
+    "name_zh": "羰基化反应",
+    "name_en": "Carbonylation",
+    "category": "organic",
+    "category_zh": "有机反应",
+    "general_form": "R-X + CO →(cat.)R-COX",
+    "description": "在过渡金属催化下将 CO 引入有机分子形成羰基（>C=O）的反应，是工业制备羧酸/醛/酯的重要 C1 资源化路径",
+    "conditions": [
+      "过渡金属催化（Pd/Rh/Co）",
+      "高压 CO（1-100 atm）",
+      "亲核试剂（H2O / ROH / RNH2）"
+    ],
+    "examples": [
+      {
+        "equation": "CH3OH + CO →(Rh cat.)CH3COOH",
+        "note": "Monsanto / Cativa 法制乙酸，CO 资源化代表"
+      },
+      {
+        "equation": "C6H5Cl + CO + CH3OH →(PdCl2)C6H5COOCH3 + HCl",
+        "note": "氯苯甲氧羰基化制苯甲酸甲酯"
+      }
+    ],
+    "key_signs": [
+      "引入 CO",
+      "过渡金属催化",
+      "C1 资源化"
+    ],
+    "related_categories": [
+      "carbon_monoxide",
+      "transition_metal",
+      "carboxylic_acid",
+      "ester"
+    ],
+    "difficulty": 4,
+    "tags": [
+      "有机",
+      "催化",
+      "工业",
+      "C1化学"
+    ]
+  },
+  {
+    "type_id": "decarboxylation",
+    "name_zh": "脱羧反应",
+    "name_en": "Decarboxylation",
+    "category": "organic",
+    "category_zh": "有机反应",
+    "general_form": "R-COOH → R-H + CO2",
+    "description": "羧酸失去 CO2 的反应，常需加热/催化剂/β-酮/β-二羧酸结构，活化能因 β 位吸电子基团显著降低",
+    "conditions": [
+      "加热（β-酮酸低温即可）",
+      "Cu / Ag 催化剂（Kolbe 电解特例）",
+      "碱性条件脱羧"
+    ],
+    "examples": [
+      {
+        "equation": "CH3CO-CH2-COOH →(Δ)CH3CO-CH3 + CO2",
+        "note": "乙酰乙酸脱羧制丙酮，β-酮酸易脱羧"
+      },
+      {
+        "equation": "HOOC-COOH →(Δ, H2SO4)HCOOH + CO2",
+        "note": "草酸脱羧制甲酸，实验室制 CO"
+      }
+    ],
+    "key_signs": [
+      "失去 CO2",
+      "β 位吸电子基团活化",
+      "产物降一个碳"
+    ],
+    "related_categories": [
+      "carboxylic_acid",
+      "beta_keto_acid",
+      "Kolbe",
+      "thermal"
+    ],
+    "difficulty": 3,
+    "tags": [
+      "有机",
+      "热分解",
+      "降碳"
+    ]
+  },
+  {
+    "type_id": "diazotization",
+    "name_zh": "重氮化反应",
+    "name_en": "Diazotization",
+    "category": "organic",
+    "category_zh": "有机反应",
+    "general_form": "Ar-NH2 + NaNO2 + HCl →(0-5℃)Ar-N2+Cl- + NaCl + H2O",
+    "description": "伯芳胺与亚硝酸在低温下反应生成重氮盐的反应，是合成偶氮染料和芳香族化合物定向转化的关键中间步骤",
+    "conditions": [
+      "0-5℃ 低温",
+      "NaNO2 + HCl 现配现用",
+      "重氮盐不稳定需立即使用"
+    ],
+    "examples": [
+      {
+        "equation": "C6H5-NH2 + NaNO2 + 2 HCl →(0℃)C6H5-N2+Cl- + NaCl + 2 H2O",
+        "note": "苯胺重氮化制氯化重氮苯，偶氮染料前体"
+      },
+      {
+        "equation": "C6H5-N2+Cl- + C6H5OH → C6H5-N=N-C6H4OH + HCl",
+        "note": "重氮盐偶联制对羟基偶氮苯（染料）"
+      }
+    ],
+    "key_signs": [
+      "生成 -N2+ 重氮基",
+      "严格 0-5℃ 控温",
+      "串联偶联下游"
+    ],
+    "related_categories": [
+      "aromatic_amine",
+      "azo_dye",
+      "cold_reaction",
+      "intermediate"
+    ],
+    "difficulty": 4,
+    "tags": [
+      "有机",
+      "低温",
+      "染料",
+      "中间体"
+    ]
+  },
+  {
+    "type_id": "alkylation",
+    "name_zh": "烷基化反应",
+    "name_en": "Alkylation",
+    "category": "organic",
+    "category_zh": "有机反应",
+    "general_form": "R-H + R'-X →(cat.)R-R' + HX",
+    "description": "向有机分子（芳环/胺/醇）引入烷基（R-）的反应，Friedel-Crafts 烷基化和 SN2 亲核取代是经典路径",
+    "conditions": [
+      "AlCl3 / FeCl3 催化（Friedel-Crafts）",
+      "卤代烷 RX",
+      "醇/烯烃路径"
+    ],
+    "examples": [
+      {
+        "equation": "C6H6 + CH3Cl →(AlCl3)C6H5-CH3 + HCl",
+        "note": "苯 Friedel-Crafts 烷基化制甲苯，汽油调和"
+      },
+      {
+        "equation": "C2H5OH + HBr →(Δ)C2H5Br + H2O",
+        "note": "乙醇溴化制溴乙烷，SN2 亲核取代"
+      }
+    ],
+    "key_signs": [
+      "引入烷基 R-",
+      "亲电/亲核两条路径",
+      "多烷基化需控量"
+    ],
+    "related_categories": [
+      "aromatic",
+      "haloalkane",
+      "Friedel_Crafts",
+      "SN2"
+    ],
+    "difficulty": 3,
+    "tags": [
+      "有机",
+      "亲电取代",
+      "工业",
+      "燃料"
+    ]
   }
 ]
